@@ -1,0 +1,85 @@
+.flex-box{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+ }
+ .left{
+    width: 30%;
+ }
+ .image{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    margin-top: 15px;
+ }
+ .image img{
+    width: 250px;
+    border-radius: 1rem;
+ }
+ .pname{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+ }
+ .rating i{
+   color: #ff5e00;
+ }
+ .price{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+ }
+ .vertion{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #ffffff;
+ }
+ .button{
+       display: inline-block;
+       padding: 10px 20px;
+       margin: 20px 0;
+       border: 3px solid #ffffff;
+       text-decoration: none;
+       font-weight: 700;
+       border-radius: 5px;
+       color: #e5e8ee;
+       letter-spacing: 1px;
+    }
+ .button a:hover{
+       background: #0088ff;
+       border: none;
+       color: #000;
+       box-shadow:  0 0 10px #03c0ff; 
+    }
+ 
+ .content-1{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      padding: 2rem 9%;
+      border-radius: 1.5rem;
+ }
+ .text-1{
+       margin-top: 2%;
+    }
+    .btn a{
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 20px 0;
+      border: 3px solid #002ae6;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 5px;
+    color: #e5e8ee;
+      letter-spacing: 1px;
+   }
+   .btn a:hover{
+      background: #0184ff;
+      border: none;
+      color: #000000;
+      box-shadow:  0 0 10px #00b9f7;
+   }

@@ -1,0 +1,324 @@
+body{
+   padding: 0;
+   background-size: cover;
+   background-position: center;
+
+}
+ ::-webkit-scrollbar{
+    width: 12px;
+    background: #0005;
+ }
+ ::-webkit-scrollbar-thumb{
+    background: #002ae6;
+    border-radius: 6px;
+ }
+.text{
+    margin-top: 8%;
+    color: #000;
+    max-width: 620px;
+    gap: 10px;
+ }
+ .text h3{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 85px;
+    margin-bottom: 25px;
+    color: #fff;
+ }
+ .content{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background-size: cover;
+   background-position: center;
+   padding: 2rem 9%;
+}
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .contentbx{
+    width: 50%;
+    margin: 20px;
+}
+.about .contentbx h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #ffffff;
+}
+.about .contentbx p{
+    max-width: 600px;
+    text-align: justify;
+    color: #e5e8ee;
+}
+.about .contentbx a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 3px solid #002ae6;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #e5e8ee;
+    letter-spacing: 1px;
+ }
+ .about .contentbx a:hover{
+    background: #0184ff;
+    border: none;
+    color: #000000;
+    box-shadow:  0 0 10px #00b9f7;
+ }
+ .games{
+    padding: 0px 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+ }
+ .games h2{
+    color: #e5e8ee;
+    margin: 10px 0;
+ }
+ .games ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+ }
+ .games ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #e5e8ee;
+ }
+ .games ul li.active{
+    background-color: #002ae6;
+    color: #000000;
+    box-shadow: #0095ff;
+ }
+ .games .cardbx{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #00b9f7;
+ }
+ .games .cardbx .card{
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background: #0927ab;
+    overflow: hidden;
+ }
+ .games .cardbx .card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+ }
+ .games .cardbx .card .contentbox{
+    padding: 10px;
+ }
+ .games .cardbx .card .contentbox h4{
+    color: #e5e8ee;
+    margin: 10px;
+ }
+ .games .cardbx .card .info p{
+   font-size: 1em;
+   color: #eee5e5;
+ }
+ .games .cardbx .card .info p span{
+    color: #36ff04;
+ }
+ .games .cardbx .card .info a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 3px solid #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #e5e8ee;
+    letter-spacing: 1px;
+ }
+ .games .cardbx .card .info a:hover{
+    background: #0088ff;
+    border: none;
+    color: #000;
+    box-shadow:  0 0 10px #03c0ff; 
+   }
+ .games .cardbx .card.hide{
+    display: none;
+ }
+ .carousel-inner{
+   border-radius: 1.4rem;
+    z-index: -1;
+ }
+
+ .news {
+   background: url(photos/bg2.png);
+   padding: 0px 100px;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 1.4rem;
+   margin: 50px auto;
+ }
+ .news .box{
+   width: 90%;
+   min-height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: #00b9f7;
+ }
+ .wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 110vh;
+   background: rgba(39, 39, 39, 0.4);
+ }
+ .form-box{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 512px;
+   height: 500px;
+   overflow: hidden;
+   z-index: 2;
+ }
+ .login-container{
+   position: absolute;
+   left: 4px;
+   width: 510px;
+   display: flex;
+   flex-direction: column;
+   transition: .5s ease-in-out;
+ }
+ .register-container{
+   position: absolute;
+   right: -520px;
+   width: 510px;
+   display: flex;
+   flex-direction: column;
+   transition: .5s ease-in-out;
+ }
+ .top span{
+   color: #fff;
+   font-size: small;
+   padding: 10px 0;
+   display: flex;
+   justify-content: center;
+ }
+ .top span a{
+   font-weight: 500;
+   color: #fff;
+   margin-left: 5px;
+ }
+ .top h2{
+   color: #fff;
+   font-size: 30px;
+   text-align: center;
+   padding: 10px 0 30px 0;
+ }
+
+ .two-forms{
+   display: flex;
+   gap: 35px;
+ }
+ .input-field{
+   font-size: 15px;
+   background: rgba(255, 255, 255, 0.2);
+   color: #fff;
+   height: 50px;
+   width: 96%;
+   padding: 0 2px 0px 25px;
+   border: none;
+   border-radius: 40px;
+   outline: none;
+   transition: .2s ease;
+ }
+ .input-field:hover,
+   .input-field:focus{
+   background: rgba(255, 255, 255, 0.25);
+   }
+   ::-webkit-input-placeholder{
+      color: #fff;
+   }
+   .input-box i{
+      position: relative;
+      top: -34px;
+      left: 6px;
+      color: #fff;
+   }
+.submit{
+   font-size: 15px;
+   font-family: 500;
+   color: #000;
+   height: 45px;
+   width: 100%;
+   border: none;
+   border-radius: 30px;
+   outline: none;
+   background: rgba(255, 255, 255, 0.7);
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+.submit:hover{
+   background: rgba(255, 255, 255, 0.5);
+}
+.two-col{
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+   font-size: small;
+   margin-top: 10px;
+}
+.two-col .one{
+   display: flex;
+   gap: 5px;
+}
+.two label a{
+   text-decoration: none;
+   color: #fff;
+}
+.two label a:hover{
+   text-decoration: underline;
+}
+.text button{
+   display: inline-block;
+    padding: 10px 20px;
+    background: #002ae6;
+    margin: 20px 0;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #ffffff;
+    letter-spacing: 1px;
+   clip-path: polygon(0 0, 100% 0%,100% 100%,10% 100%,0% 68%);
+}
+.text button:hover{
+   background: #0088ff;
+   border: none;
+   color: #000;
+   box-shadow:  0 0 10px #03c0ff; 
+}
